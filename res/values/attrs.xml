@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="noLines">12</string>
+	<string name="gridNoLines">12</string>
+	<string name="patternNoLines">1</string>
+	<string name="noPositions">4</string>
+	<string name="resultNoPositions">1</string>
+	<string name="tileSize">50</string>
+</resources>

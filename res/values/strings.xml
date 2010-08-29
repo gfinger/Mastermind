@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="endgame">end game</string>
+    <string name="newgame">new game</string>
+    <string name="capitulate">capitulate</string>
+	<string name="app_name">Mastermind</string>
+	<string name="win_dialog_title">you won!</string>
+	<string name="lose_dialog_title">you lost!</string>
+	<string-array name="dialog_text_list">
+		<item>new game</item>
+		<item>end game</item>
+	</string-array>
+</resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="Views" size="1156,724" id="de.makkiato.android.mastermind" metadata="uml2-1.0" initialized="true" zoom="0.8894472361809045" scrolledX="-3" scrolledY="247" tag="1000" key="32303037303533312D31303030204D61737465726D696E642F677265676F72">
+  <children xsi:type="editmodel:ClassEditModel" name="Mastermind" location="2,128" size="218,218" id="de.makkiato.android.mastermind/Mastermind" runTimeClassModel="de.makkiato.android.mastermind.Mastermind.EnterButtonListener,onCreate(Landroid.os.Bundle;),de.makkiato.android.mastermind.Mastermind.ResetButtonListener">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="80,18">
+      <children xsi:type="editmodel:MethodEditModel" name="onCreate" id="de.makkiato.android.mastermind/Mastermind#onCreate(Landroid.os.Bundle;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="195,140">
+      <children xsi:type="editmodel:ClassEditModel" name="EnterButtonListener" size="193,68" id="de.makkiato.android.mastermind/Mastermind$EnterButtonListener" runTimeClassModel="onClick(Landroid.view.View;)">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="69,18">
+          <children xsi:type="editmodel:MethodEditModel" name="onClick" id="de.makkiato.android.mastermind/Mastermind$EnterButtonListener#onClick(Landroid.view.View;)"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+      </children>
+      <children xsi:type="editmodel:ClassEditModel" name="ResetButtonListener" size="195,68" id="de.makkiato.android.mastermind/Mastermind$ResetButtonListener" runTimeClassModel="onClick(Landroid.view.View;)">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="69,18">
+          <children xsi:type="editmodel:MethodEditModel" name="onClick" id="de.makkiato.android.mastermind/Mastermind$ResetButtonListener#onClick(Landroid.view.View;)"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+      </children>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="PatternView" location="45,474" size="175,176" id="de.makkiato.android.mastermind/PatternView" runTimeClassModel="getNumberOfPositions(),setupConstants(Landroid.content.Context;),onDraw(Landroid.graphics.Canvas;),setPositionColors([I),getNumberOfColors(),PatternView(Landroid.content.Context;Landroid.util.AttributeSet;),PatternView(Landroid.content.Context;Landroid.util.AttributeSet;I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="152,126">
+      <children xsi:type="editmodel:MethodEditModel" name="PatternView" id="de.makkiato.android.mastermind/PatternView#PatternView(Landroid.content.Context;Landroid.util.AttributeSet;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="PatternView" id="de.makkiato.android.mastermind/PatternView#PatternView(Landroid.content.Context;Landroid.util.AttributeSet;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNumberOfColors" id="de.makkiato.android.mastermind/PatternView#getNumberOfColors()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNumberOfPositions" id="de.makkiato.android.mastermind/PatternView#getNumberOfPositions()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onDraw" id="de.makkiato.android.mastermind/PatternView#onDraw(Landroid.graphics.Canvas;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setPositionColors" id="de.makkiato.android.mastermind/PatternView#setPositionColors([I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setupConstants" id="de.makkiato.android.mastermind/PatternView#setupConstants(Landroid.content.Context;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.3/@sourceConnections.0 //@children.4/@sourceConnections.0" autoLocated="true" id="de.makkiato.android.mastermind/TileView&lt;-de.makkiato.android.mastermind/PatternView" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.1/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="87,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="97,374" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0" name="TileView" location="221,50" size="194,374" id="de.makkiato.android.mastermind/TileView" runTimeClassModel="getPosition(II),yOffset,noLines,tileColors,colors,tileSize,onDraw(Landroid.graphics.Canvas;),paint,onMeasure(II),noPositions,setupConstants(Landroid.content.Context;),tileBmpActive,xOffset,isColorSet,TileView(Landroid.content.Context;Landroid.util.AttributeSet;),TileView(Landroid.content.Context;Landroid.util.AttributeSet;I),emptyColor,tileBmp">
+    <children xsi:type="editmodel:CompartmentEditModel" size="171,216">
+      <children xsi:type="editmodel:AttributeEditModel" name="colors" id="de.makkiato.android.mastermind/TileView#colors"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="emptyColor" id="de.makkiato.android.mastermind/TileView#emptyColor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="isColorSet" id="de.makkiato.android.mastermind/TileView#isColorSet"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="noLines" id="de.makkiato.android.mastermind/TileView#noLines"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="noPositions" id="de.makkiato.android.mastermind/TileView#noPositions"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="paint" id="de.makkiato.android.mastermind/TileView#paint"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tileBmp" id="de.makkiato.android.mastermind/TileView#tileBmp"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tileBmpActive" id="de.makkiato.android.mastermind/TileView#tileBmpActive"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tileColors" id="de.makkiato.android.mastermind/TileView#tileColors"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tileSize" id="de.makkiato.android.mastermind/TileView#tileSize"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="xOffset" id="de.makkiato.android.mastermind/TileView#xOffset"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="yOffset" id="de.makkiato.android.mastermind/TileView#yOffset"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,108">
+      <children xsi:type="editmodel:MethodEditModel" name="TileView" id="de.makkiato.android.mastermind/TileView#TileView(Landroid.content.Context;Landroid.util.AttributeSet;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TileView" id="de.makkiato.android.mastermind/TileView#TileView(Landroid.content.Context;Landroid.util.AttributeSet;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPosition" id="de.makkiato.android.mastermind/TileView#getPosition(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onDraw" id="de.makkiato.android.mastermind/TileView#onDraw(Landroid.graphics.Canvas;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onMeasure" id="de.makkiato.android.mastermind/TileView#onMeasure(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setupConstants" id="de.makkiato.android.mastermind/TileView#setupConstants(Landroid.content.Context;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ResultView" location="270,510" size="139,194" id="de.makkiato.android.mastermind/ResultView" runTimeClassModel="setupConstants(Landroid.content.Context;),whiteColor,setResult(I[I),initialize(),blackColor,onDraw(Landroid.graphics.Canvas;),resetResults(),reset(),ResultView(Landroid.content.Context;Landroid.util.AttributeSet;I),ResultView(Landroid.content.Context;Landroid.util.AttributeSet;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="111,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="blackColor" id="de.makkiato.android.mastermind/ResultView#blackColor"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="whiteColor" id="de.makkiato.android.mastermind/ResultView#whiteColor"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,108">
+      <children xsi:type="editmodel:MethodEditModel" name="ResultView" id="de.makkiato.android.mastermind/ResultView#ResultView(Landroid.content.Context;Landroid.util.AttributeSet;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="ResultView" id="de.makkiato.android.mastermind/ResultView#ResultView(Landroid.content.Context;Landroid.util.AttributeSet;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onDraw" id="de.makkiato.android.mastermind/ResultView#onDraw(Landroid.graphics.Canvas;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reset" id="de.makkiato.android.mastermind/ResultView#reset()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setResult" id="de.makkiato.android.mastermind/ResultView#setResult(I[I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setupConstants" id="de.makkiato.android.mastermind/ResultView#setupConstants(Landroid.content.Context;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="de.makkiato.android.mastermind/TileView&lt;-de.makkiato.android.mastermind/ResultView" source="//@children.3" target="//@children.1/@sourceConnections.0" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="69,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="194,48"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="GridView" location="450,474" size="139,230" id="de.makkiato.android.mastermind/GridView" runTimeClassModel="nextLine(),GridView(Landroid.content.Context;Landroid.util.AttributeSet;I),GridView(Landroid.content.Context;Landroid.util.AttributeSet;),onTouchEvent(Landroid.view.MotionEvent;),activeLine,setupConstants(Landroid.content.Context;),onDraw(Landroid.graphics.Canvas;),reset(),getActiveLine(),getLineColors()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="activeLine" id="de.makkiato.android.mastermind/GridView#activeLine"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,162">
+      <children xsi:type="editmodel:MethodEditModel" name="GridView" id="de.makkiato.android.mastermind/GridView#GridView(Landroid.content.Context;Landroid.util.AttributeSet;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="GridView" id="de.makkiato.android.mastermind/GridView#GridView(Landroid.content.Context;Landroid.util.AttributeSet;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getActiveLine" id="de.makkiato.android.mastermind/GridView#getActiveLine()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLineColors" id="de.makkiato.android.mastermind/GridView#getLineColors()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="nextLine" id="de.makkiato.android.mastermind/GridView#nextLine()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onDraw" id="de.makkiato.android.mastermind/GridView#onDraw(Landroid.graphics.Canvas;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="onTouchEvent" id="de.makkiato.android.mastermind/GridView#onTouchEvent(Landroid.view.MotionEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="reset" id="de.makkiato.android.mastermind/GridView#reset()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setupConstants" id="de.makkiato.android.mastermind/GridView#setupConstants(Landroid.content.Context;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="de.makkiato.android.mastermind/TileView&lt;-de.makkiato.android.mastermind/GridView" source="//@children.4" target="//@children.1/@sourceConnections.0" targetEnd="//@children.4/@sourceConnections.0/@children.1" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="69,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="194,224"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" properties="open=de.makkiato.android.mastermind/PatternView;wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:enabled="true" android:title="@string/capitulate" android:id="@+id/capitulate" android:icon="@drawable/light"></item>
+<item android:enabled="true" android:title="@string/newgame" android:id="@+id/newgame" android:icon="@drawable/flash"></item>
+<item android:enabled="true" android:title="@string/endgame" android:id="@+id/endgame" android:icon="@drawable/smalltiles"></item>
+</menu>
